@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <base href="/SiteRickeMorty/">
+  <title>Contato</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="../imagens/rickemorty.png" alt="Logo Rick and Morty" class="logo" />
+    <ul class="nav-links">
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../pages/personagens.html">Personagens</a></li>
+      <li><a href="../pages/melhorestemporadas.html">Melhores Temporadas</a></li>
+      <li><a href="../pages/multiverso.html">Multiverso</a></li>
+      <li><a href="../pages/curiosidades.html">Curiosidades</a></li>
+      <li><a href="../pages/contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main class="contato">
+    <h2>Fale Conosco</h2>
+    <form class="form-contato" action="#" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..." rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer class="rodape">
+    &copy; 2025 Seu Site. Todos os direitos reservados.
+  </footer>
+</body>
+
+</html>
